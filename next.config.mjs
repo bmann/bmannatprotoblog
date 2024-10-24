@@ -13,7 +13,3 @@ const nextConfig = {
     ],
   },
 };
-
-export default withPlausibleProxy({
-  customDomain: "https://plausible.mozzius.dev",
-})(nextConfig);
