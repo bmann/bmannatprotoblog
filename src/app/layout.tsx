@@ -29,7 +29,7 @@ const mono = localFont({
 export const metadata: Metadata = {
 
 title: "bmann.ca",
-  description: "Boris' ATProto Blog",
+  description: "Boris Blogging on ATProto",
   alternates: {
     canonical: "https://bmann.ca",
     types: {

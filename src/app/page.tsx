@@ -10,7 +10,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-dvh p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full max-w-[400px]">
         <div>
-          <span className="font-bold text-xs">Boris's ATProto Blog</span>
+          <span className="font-bold text-xs">Boris Blogging on ATProto</span>
           <Title level="h1" className="m-0">
             bmann.ca
           </Title>

@@ -26,7 +26,7 @@ export default async function OpenGraphImage() {
         >
           bmann.ca
         </h1>
-        <h1 style={{ fontSize: 32 }}>a webbed site</h1>
+        <h1 style={{ fontSize: 32 }}>Boris Blogging on ATProto</h1>
       </div>
     ),
     {
