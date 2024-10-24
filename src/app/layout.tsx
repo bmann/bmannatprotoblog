@@ -27,12 +27,13 @@ const mono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "mozzius.dev",
-  description: "a webbed site",
+
+title: "bmann.ca",
+  description: "Boris' ATProto Blog",
   alternates: {
-    canonical: "https://mozzius.dev",
+    canonical: "https://bmann.ca",
     types: {
-      "application/rss+xml": "https://mozzius.dev/rss",
+      "application/rss+xml": "https://bmann.ca/rss",
     },
   },
 };
@@ -45,12 +46,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <NextPlausible
-          domain="mozzius.dev"
-          customDomain="https://plausible.mozzius.dev"
-          trackOutboundLinks
-          selfHosted
-        />
       </head>
       <body
         className={cx(

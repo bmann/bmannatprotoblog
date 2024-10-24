@@ -24,7 +24,7 @@ export default async function OpenGraphImage() {
             fontStyle: "italic",
           }}
         >
-          mozzius.dev
+          bmann.ca
         </h1>
         <h1 style={{ fontSize: 32 }}>a webbed site</h1>
       </div>

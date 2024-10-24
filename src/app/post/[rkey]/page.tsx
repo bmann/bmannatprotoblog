@@ -35,9 +35,9 @@ export async function generateMetadata({
   const entry = post.data.value as ComWhtwndBlogEntry.Record;
 
   return {
-    title: entry.title + " — mozzius.dev",
-    authors: [{ name: "Samuel", url: `https://bsky.app/profile/${MY_DID}` }],
-    description: `by Samuel · ${readingTime(entry.content).text}`,
+    title: entry.title + " — bmann.ca",
+    authors: [{ name: "Boris", url: `https://bsky.app/profile/${MY_DID}` }],
+    description: `by Boris · ${readingTime(entry.content).text}`,
   };
 }
 
